@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main_container" style="width: 1440px; max-height: 1080px; margin: 0 auto;">
+        <div class="grid_container">
+            <div class="menu">
+                <div class="logo">
+                    <a href="/"><img src="img/Logo.png" alt=""></a>
+                </div>
+                <div class="header">
+                    <h1 style="padding-left: 32px;" class="h1_main">
+                        <a href="#"><img src="img/icons/arrow_prev.png" alt=""> Обзор по студенту</a>
+                    </h1>
+                </div>
+                <div class="profile">
+                    <div>
+                        <a href="#"><img src="img/icons/notifications.png" alt=""></a>
+                    </div>
+                    <div style="display: grid;justify-content: end;">
+                        <ul>
+                            <li><span>Данилов О.</span></li>
+                            <li><img class="profile_photo" src="img/student_profile.png" alt=""></li>
+                            <li>
+                                <a href="#"><img src="img/icons/logout.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar_content">
+                    <div class="sidebar_menu" style="padding-top: 84px;">
+                        <ul>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/home_admin.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/resume_admin.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/files.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/message.png" alt=""></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img class="" src="img/icons/calendar.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/more.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/settings.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="white">
+                <div class="white_content student_profile">
+                    <form action="#" class="search_student_profile">
+                        <p>
+                            <i style="line-height: 48px;" class="fa fa-search" aria-hidden="true"></i>
+                            <input type="search" placeholder="Поиск по группе, студентам">
+                        </p>
+                        <p class="select_arrow">
+                            <select name="#" id="#">
+                                <option value="" disabled selected>Выберите группу</option>
+                                <option value="#">Пункт 1</option>
+                                <option value="#">Пункт 2</option>
+                                <option value="#">Пункт 3</option>
+                            </select>
+                        </p>
+                        <p class="select_arrow">
+                            <select name="#" id="#">
+                                <option value="" disabled selected>Выберите студента</option>
+                                <option value="#">Пункт 1</option>
+                                <option value="#">Пункт 2</option>
+                                <option value="#">Пункт 3</option>
+                            </select>
+                        </p>
+                    </form>
+
+                    <div class="skills_block">
+                        <div class="header_skills_block">
+                            <h1>Текущие направления</h1>
+                            <div>
+
+                                <dl class="chart" style="--scale: 100;">
+
+                                    <dt class="date">Графический дизайнер</dt>
+                                    <dd class="bar" style="--start: 51;">
+                                        <span class="value">45%</span>
+                                    </dd>
+
+                                    <dt class="date">Руководитель разработки ПО</dt>
+                                    <dd class="bar" style="--start: 96;">
+                                        <span class="value">5%</span>
+                                    </dd>
+
+                                    <dt class="date">Программист</dt>
+                                    <dd class="bar" style="--start: 86;">
+                                        <span class="value">15%</span>
+                                    </dd>
+
+                                    <dt class="date">Руководитель в области ИТ</dt>
+                                    <dd class="bar" style="--start: 93;">
+                                        <span class="value">8%</span>
+                                    </dd>
+
+                                    <dt class="date">Технический писатель</dt>
+                                    <dd class="bar" style="--start: 89;">
+                                        <span class="value">22%</span>
+                                    </dd>
+
+                                    <dt class="date">Системный аналитик</dt>
+                                    <dd class="bar" style="--start: 76;">
+                                        <span class="value">35%</span>
+                                    </dd>
+
+                                    <dt class="date">Администратор БД</dt>
+                                    <dd class="bar" style="--start: 26;">
+                                        <span class="value">85%</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>Hard-skills</h2>
+                            <ul>
+                                <li><span>86%</span>Создание видео</li>
+                                <li><span>70%</span>UI-дизайн</li>
+                                <li><span>42%</span>Анализ данных</li>
+                                <li><span>55%</span>Бизнес-аналитика</li>
+                                <li><span>33%</span>Программирование</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>Soft-skills</h2>
+                            <ul>
+                                <li><span>86%</span>Креативность</li>
+                                <li><span>70%</span>Эмоциональный интеллект</li>
+                                <li><span>42%</span>Активное слушание</li>
+                                <li><span>55%</span>Ответственность</li>
+                                <li><span>33%</span>Коммуникабельность</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_student_block">
+                        <div class="header_portfolio_student_block">
+                            <h1>Портфолио</h1>
+                            <div class="select_arrow" style="width: 240px;">
+                                <select name="#" id="#">
+                                    <option value="" disabled selected>Выберите группу</option>
+                                    <option value="#">Пункт 1</option>
+                                    <option value="#">Пункт 2</option>
+                                    <option value="#">Пункт 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="porfolio_block_1">
+                            <div id="NAV-4" class="crsl-nav carousel portfolio_carousel">
+
+                                <div class="crsl-items4" data-navigation="NAV-4">
+                                    <div class="crsl-wrap">
+                                        <figure class="crsl-item portfolio_item active" tabindex="1">
+                                            <p class="header_portfolio_item">Чемпионат Case-IN</p>
+                                            <div>
+                                                <p>05 / 21</p>
+                                                <p>Международный</p>
+                                            </div>
+                                        </figure>
+                                        <figure class="crsl-item portfolio_item source source-2" tabindex="1">
+                                            <p class="header_portfolio_item">World AI & Data Challenge</p>
+                                            <div>
+                                                <p>12 / 20</p>
+                                                <p>Международный</p>
+                                            </div>
+                                        </figure>
+                                        <figure class="crsl-item portfolio_item" tabindex="1">
+                                            <p class="header_portfolio_item">Чемпионат Case-IN</p>
+                                            <div>
+                                                <p>11 / 20</p>
+                                                <p>Международный</p>
+                                            </div>
+                                        </figure>
+                                        <figure class="crsl-item portfolio_item" tabindex="1">
+                                            <p class="header_portfolio_item">Чемпионат Case-IN4</p>
+                                            <div>
+                                                <p>11 / 20</p>
+                                                <p>Международный</p>
+                                            </div>
+                                        </figure>
+                                        <figure class="crsl-item portfolio_item" tabindex="1">
+                                            <p class="header_portfolio_item">Чемпионат Case-IN5</p>
+                                            <div>
+                                                <p>11 / 20</p>
+                                                <p>Международный</p>
+                                            </div>
+                                        </figure>
+                                        <figure class="crsl-item portfolio_item" tabindex="1">
+                                            <p class="header_portfolio_item">Чемпионат Case-IN6</p>
+                                            <div>
+                                                <p>11 / 20</p>
+                                                <p>Международный</p>
+                                            </div>
+                                        </figure>
+                                        <figure class="crsl-item portfolio_item" tabindex="1">
+                                            <p class="header_portfolio_item">Чемпионат Case-IN7</p>
+                                            <div>
+                                                <p>11 / 20</p>
+                                                <p>Международный</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="button_carousel">
+                                    <a href="#" class="next"><img src="img/icons/next.png" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="student_block_marks">
+                        <div class="header_portfolio_student_block">
+                            <h1>Успеваемость</h1>
+                            <div class="select_arrow" style="width: 240px;">
+                                <select name="#" id="#">
+                                    <option value="" disabled selected>Выберите семестр</option>
+                                    <option value="#">Пункт 1</option>
+                                    <option value="#">Пункт 2</option>
+                                    <option value="#">Пункт 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid_marks_student_page" id="style-overflow">
+                            <div class="row" style="border-bottom: 2px solid var(--light-main)">
+                                <div>
+                                    №
+                                </div>
+                                <div style="font-weight: 500;text-decoration: none;">
+                                    Наименование дисциплины
+                                </div>
+                                <div style="font-weight: 500;">
+                                    Получ. балл
+                                </div>
+                                <div style="font-weight: 500;">
+                                    Макс. балл
+                                </div>
+                                <div style="font-weight: 500;">
+                                    Контр.
+                                </div>
+                            </div>
+                            <div class="content_row">
+                                <div class="row">
+                                    <div>
+                                        1
+                                    </div>
+                                    <div>
+                                        Философия
+                                    </div>
+                                    <div style="text-align: center;">
+                                        92
+                                    </div>
+                                    <div style="text-align: center;">
+                                        100
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        2
+                                    </div>
+                                    <div>
+                                        Физика
+                                    </div>
+                                    <div style="text-align: center;">
+                                        82
+                                    </div>
+                                    <div style="text-align: center;">
+                                        100
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        3
+                                    </div>
+                                    <div>
+                                        Математика
+                                    </div>
+                                    <div style="text-align: center;">
+                                        85
+                                    </div>
+                                    <div style="text-align: center;">
+                                        100
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        4
+                                    </div>
+                                    <div>
+                                        Правоведение
+                                    </div>
+                                    <div style="text-align: center;">
+                                        76
+                                    </div>
+                                    <div style="text-align: center;">
+                                        100
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        5
+                                    </div>
+                                    <div>
+                                        Технологии программирования
+                                    </div>
+                                    <div style="text-align: center;">
+                                        50
+                                    </div>
+                                    <div style="text-align: center;">
+                                        50
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        6
+                                    </div>
+                                    <div>
+                                        Деловой иностранный язык
+                                    </div>
+                                    <div style="text-align: center;">
+                                        58
+                                    </div>
+                                    <div style="text-align: center;">
+                                        60
+                                    </div>
+                                    <div style="text-align: center;" class="no_active">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        7
+                                    </div>
+                                    <div>
+                                        Лабораторная работа №1
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;" class="no_active">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        8
+                                    </div>
+                                    <div>
+                                        Лабораторная работа №1
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;" class="no_active">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        9
+                                    </div>
+                                    <div>
+                                        Лабораторная работа №1
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        10
+                                    </div>
+                                    <div>
+                                        Лабораторная работа №1
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        11
+                                    </div>
+                                    <div>
+                                        Лабораторная работа №1
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        12
+                                    </div>
+                                    <div>
+                                        Лабораторная работа №1
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        Экз.
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        13
+                                    </div>
+                                    <div>
+                                        Лабораторная работа №1
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;">
+                                        7
+                                    </div>
+                                    <div style="text-align: center;" class="no_active">
+                                        Экз.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="other">
+                <div class="other_content">
+                    <div class="calendar" style="padding-top: 36px;">
+                        <table id="calendar2">
+                            <thead>
+                                <tr>
+                                    <td><img src="img/icons/prev.png" alt="">
+                                        <td colspan="5">
+                                            <td><img src="img/icons/next.png" alt="">
+                                                <tr>
+                                                    <td>Пн</td>
+                                                    <td>Вт</td>
+                                                    <td>Ср</td>
+                                                    <td>Чт</td>
+                                                    <td>Пт</td>
+                                                    <td>Сб</td>
+                                                    <td>Вс</td>
+                                                </tr>
+                                            </td>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="future_events">
+                        <h1 class="h1_main"><a href="#" style="font-size: 32px;">Предстоящие события <img src="img/icons/arrow_next.png" alt=""></a></h1>
+                        <div class="block_event">
+                            <div class="item_blur" style="margin-top: 32px;">
+                                <div class="info_blur">
+                                    <p>Промежуточное тестирование на тему “Основы типографики”</p>
+                                    <ul>
+                                        <li>00:00 - 23:59</li>
+                                        <li>08.04</li>
+                                    </ul>
+                                </div>
+                                <div class="icon_blur">
+                                    <a href="#"><img src="img/icons/more.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        $('.crsl-items4').carousel({
+            visible: 3,
+            itemMargin: 8
+        });
+    });
+</script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+<script type="text/javascript" src="https://basilio.github.io/responsiveCarousel/js/responsiveCarousel.js"></script>
+
+</html>

@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main_container" style="width: 1440px; max-height: 1080px; margin: 0 auto;">
+        <div class="grid_container">
+            <div class="menu">
+                <div class="logo">
+                    <a href="/"><img src="img/Logo.png" alt=""></a>
+                </div>
+                <div class="header">
+                    <h1 style="padding-left: 32px;" class="h1_main"><a href="#">Мои курсы <img src="img/icons/arrow_next.png" alt=""></a></h1>
+                </div>
+                <div class="profile">
+                    <div>
+                        <a href="#"><img src="img/icons/notifications.png" alt=""></a>
+                    </div>
+                    <div style="display: grid;justify-content: end;">
+                        <ul>
+                            <li><span>Иван И.</span></li>
+                            <li><img class="profile_photo" src="img/profile.png" alt=""></li>
+                            <li>
+                                <a href="#"><img src="img/icons/logout.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar_content">
+                    <div class="sidebar_menu" style="padding-top: 84px;">
+                        <ul>
+
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/home.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/chart.png" alt=""></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/files.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/book.png" alt=""></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/message.png" alt=""></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img class="" src="img/icons/calendar.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/more.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a class="tip" href="#"><img src="img/icons/settings.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="white">
+                <div class="white_content">
+                    <div class="block_course" style="padding-top: 32px;">
+                        <div>
+                            <ul>
+                                <li class="block_img"><img src="img/Design.png" alt=""></li>
+                                <li class="block_heading">
+                                    <p>Основы графического дизайна</p>
+                                </li>
+                                <li class="block_extend"><span>90%</span> выполнено</li>
+                                <li class="block_progress_bar">
+                                    <progress id="line_progress" max="100" value="90"></progress>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="block_img"><img src="img/Coding.png" alt=""></li>
+                                <li class="block_heading">
+                                    <p>Базовый JavaScript</p>
+                                </li>
+                                <li class="block_extend">34% выполнено</li>
+                                <li class="block_progress_bar">
+                                    <progress id="line_progress" max="100" value="34"></progress>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="block_img"><img src="img/Blog.png" alt=""></li>
+                                <li class="block_heading">
+                                    <p>UX-копирайтинг</p>
+                                </li>
+                                <li class="block_extend">85% выполнено</li>
+                                <li class="block_progress_bar">
+                                    <progress id="line_progress" max="100" value="85"></progress>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h1 class="h1_main"><a href="#">Статистика <img src="img/icons/arrow_next.png" alt=""></a></h1>
+                    <div class="block_statisctic">
+                        <div style="display: grid; justify-content: left;">
+                            <h1 class="h1_extend">4,5</h1>
+                            <p>Средний балл</p>
+                        </div>
+                        <div>
+                            <h1 class="h1_extend">8</h1>
+                            <p>Тестирований осталось</p>
+                        </div>
+                        <div style="display: grid; justify-content: right;">
+                            <h1 class="h1_extend">2</h1>
+                            <p>Недель до конца обучения</p>
+                        </div>
+                    </div>
+                    <h1 class="h1_main"><a href="#">Направления <img src="img/icons/arrow_next.png" alt=""></a></h1>
+                    <div class="block_graph" style="padding: 25px;">
+                        <div>
+                            <dl class="chart overview" style="--scale: 100; height: 150px; width: 280px; margin: 0;padding: 0;">
+
+                                <dd class="bar" style="--start: 51;">
+                                    <span class="value">45%</span>
+                                </dd>
+
+
+                                <dd class="bar" style="--start: 96;">
+                                    <span class="value">5%</span>
+                                </dd>
+
+
+                                <dd class="bar" style="--start: 86;">
+                                    <span class="value">15%</span>
+                                </dd>
+
+
+                                <dd class="bar" style="--start: 93;">
+                                    <span class="value">8%</span>
+                                </dd>
+
+                                <dd class="bar" style="--start: 89;">
+                                    <span class="value">22%</span>
+                                </dd>
+
+
+                                <dd class="bar" style="--start: 76;">
+                                    <span class="value">35%</span>
+                                </dd>
+
+
+                                <dd class="bar" style="--start: 26;">
+                                    <span class="value">85%</span>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="name_prof">
+                            <p><span style="background: rgba(85, 46, 255, 0.8);">&nbsp</span>Графический дизайнер</p>
+                            <p><span style="background: #B7A9FD">&nbsp</span>Руководитель разработки ПО</p>
+                            <p><span style="background: #866BFE;">&nbsp</span>Руководитель в области ИТ</p>
+                            <p><span style="background: #552EFF">&nbsp</span>Программист</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other">
+                <div class="other_content">
+                    <div class="calendar" style="padding-top: 36px;">
+                        <table id="calendar2">
+                            <thead>
+                                <tr>
+                                    <td><img src="img/icons/prev.png" alt="">
+                                        <td colspan="5">
+                                            <td><img src="img/icons/next.png" alt="">
+                                                <tr>
+                                                    <td>Пн</td>
+                                                    <td>Вт</td>
+                                                    <td>Ср</td>
+                                                    <td>Чт</td>
+                                                    <td>Пт</td>
+                                                    <td>Сб</td>
+                                                    <td>Вс</td>
+                                                </tr>
+                                            </td>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="future_events">
+                        <h1 class="h1_main"><a href="#" style="font-size: 32px;">Предстоящие события <img src="img/icons/arrow_next.png" alt=""></a></h1>
+                        <div class="block_event">
+                            <div class="item_blur" style="margin-top: 32px;">
+                                <div class="info_blur">
+                                    <p>Промежуточное тестирование на тему “Основы типографики”</p>
+                                    <ul>
+                                        <li>00:00 - 23:59</li>
+                                        <li>08.04</li>
+                                    </ul>
+                                </div>
+                                <div class="icon_blur">
+                                    <a href="#"><img src="img/icons/more.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="item_blur">
+                                <div class="info_blur">
+                                    <p>Промежуточное тестирование на тему “Основы типографики”</p>
+                                    <ul>
+                                        <li>00:00 - 23:59</li>
+                                        <li>22.04</li>
+                                    </ul>
+                                </div>
+                                <div class="icon_blur">
+                                    <a href="#"><img src="img/icons/more.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="item_blur">
+                                <div class="info_blur">
+                                    <p>Вебинар “Оформление кейса и подготовка портфолио”</p>
+                                    <ul>
+                                        <li>16:30 - 19:00</li>
+                                        <li>30.04</li>
+                                    </ul>
+                                </div>
+                                <div class="icon_blur">
+                                    <a href="#"><img src="img/icons/more.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var ctx = $('#myChart');
+
+    ctx.height(100);
+
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ["APP1", "APP2", "APP3", "APP4", "APP5"],
+            datasets: [{
+                data: [25, 61, 47, 45, 30],
+                label: "Response > 5",
+                borderColor: "#5151A1",
+                backgroundColor: "#5151A1"
+            }, {
+                data: [22, 38, 53, 17, 55],
+                label: "Response <= 5",
+                borderColor: "#408040",
+                backgroundColor: "#408040"
+            }]
+        },
+        maintainAspectRatio: false,
+        options: {
+            responsive: true,
+            legend: {
+                position: "right",
+                align: "middle"
+            },
+            scales: {
+
+                yAxes: [{
+                    ticks: {
+                        min: 0,
+                        //max: 100,
+                        callback: function(value) {
+                            return value + "%"
+                        }
+                    },
+                    scaleLabel: {
+                        display: true
+                            //labelString: "Percentage"
+                    }
+                }]
+            }
+        }
+    });
+</script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+
+</html>

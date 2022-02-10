@@ -1,0 +1,5 @@
+@media (max-width: 992px) {
+    .aside_menu, .logo_menu {
+        width: 64px;
+    }
+}
